@@ -1,0 +1,69 @@
+
+
+.animation-block{
+    position: relative;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+}
+
+.eagle{
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 50px;
+    animation: eaglemove 10s 1ms infinite;
+    position: absolute;
+}
+
+@keyframes eaglemove {
+    
+    0%    {left: 50px; top: 50px; width: 50px; height: 50px;}
+    25% {left: 400px;  top: 100px;  width: 100px; height: 100px; }
+    50% {left: 800px; top:150px; width: 15 0px; height: 150px;}
+    75%{left: 1200px; top: 200px; width: 80px; height: 80px; }
+    100%{left: 1600px; top: 300px; width: 50px; height: 50px;}
+}
+
+
+@keyframes horsemove 
+{
+    0%{left: 300px; bottom: 200px; }
+    25%{left: 350px; bottom: 250px; width: 150px; height: 150px;}
+    50%{left: 500px; bottom: 300px; width: 150px; height: 150px;}
+    75%{left: 700px; bottom: 250px; width: 150px; height: 150px;}
+    100%{left: 1000px; bottom: 350px; width: 100px; height: 100px;}
+}
+.horse{
+ width: 100px;
+ height: 100px;
+ bottom: 150px;
+ left: 150px;
+ animation: horsemove 10s 2ms infinite ;
+ position: absolute;    
+}
+
+.image-car{
+    width: 120px;
+    height: 120px;
+    bottom: 200px;
+    right: 200px;
+    animation: carmove 10s 1ms infinite;
+    position: absolute;
+}
+
+@keyframes carmove {
+    0%{left: 1250px; bottom: 190px; }
+    25%{left: 1400px; bottom: 170px; width: 100px; height: 100px;}
+    50%{left: 1550px; bottom: 140px; width: 100px; height: 100px;}
+    75%{left: 1700px; bottom: 140px; width: 100x; height: 100px;}
+    100%{left: 1800px; bottom: 140px; width: 80px; height: 80px;}
+}
+
+
+
+
+    
+}
